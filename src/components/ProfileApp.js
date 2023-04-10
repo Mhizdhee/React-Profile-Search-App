@@ -1,5 +1,3 @@
-// import './App.css';
-
 import Wrapper from './Wrapper';
 
 
@@ -8,6 +6,8 @@ const ProfileApp = () => {
     <>
     <Wrapper />
   
+    
+    
     </>
   )
 }

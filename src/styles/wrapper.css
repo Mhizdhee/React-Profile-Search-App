@@ -31,7 +31,7 @@ input::placeholder{
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     width: 70%;
-    margin:  auto 165px;
+    margin:  auto 143px;
     margin-top: 10px;
     place-content: center;
    

@@ -1,9 +1,5 @@
 import React from 'react'
 import {users} from '../data/user';
-// import images from '../images';
-
-
-
 
 
 const UserProfile = () => {
@@ -15,7 +11,7 @@ const UserProfile = () => {
         <li key={user.id}>
            
         <img src={user.picture} alt="pic" /> 
-        {user.id} <br/> 
+        {user.id} <br/>
        {user.title}.{user.firstName} {user.lastName} 
         </li>
         
