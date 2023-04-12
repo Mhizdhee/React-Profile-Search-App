@@ -1,6 +1,8 @@
 .container{
    background-image:linear-gradient(rgb(240, 68, 97),orange);
    height: 100vh;
+   width: 80%;
+   margin: 0 auto;
    
     /* background-color: red; */
 }
@@ -31,9 +33,10 @@ input::placeholder{
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     width: 70%;
-    margin:  auto 143px;
+    margin:  auto 158px;
     margin-top: 10px;
     place-content: center;
+    padding: 0 10px;
    
 }
 .profile-card {
@@ -41,9 +44,7 @@ input::placeholder{
     border-radius: 5px;
     padding: 10px;
     text-align: justify;
-    /* display: flex;
-    justify-items: center;
-    align-items: center; */
+    
    
     
     
