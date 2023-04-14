@@ -1,7 +1,6 @@
 import React from "react";
-import { users } from "../data/user";
 
-const UserProfile = () => {
+const UserProfile = ({users}) => {
   const userDetails = users.map((user, index) => {
     return (
       <div className="profile-card">
